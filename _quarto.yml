@@ -56,7 +56,7 @@ website:
           - worksheets/ws-02.qmd
           - worksheets/ws-03.qmd
           - href: https://gisma-courses.github.io/gi-modules/post/2021-11-16-getting-startet-with-lidar/
-            text: Basic Remote Sensing Project
+            text: "Worksheet 4: Basic Remote Sensing Project"
           
           # - href: https://github.com/gisma-courses/LV-19-050-189-ABM/blob/main/assets/Challenge1Advanced.nlogo
           #   text: Challenge One Advanced Model
