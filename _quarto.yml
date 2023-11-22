@@ -46,8 +46,7 @@ website:
             text: Geocomputation with R
           - href: https://gisma-courses.github.io/gi-modules/post/2021-11-13-project-oriented-workflow/
             text: Setup your Working Environment
-          - href: https://gisma--courses-github-io.translate.goog/gi-modules/post/2021-12-03-r-spatial-in-der-nussschale/?_x_tr_sl=auto&_x_tr_tl=de&_x_tr_hl=de&_x_tr_pto=wapp
-            text: Basic Remote Sensing Project
+
           
       - text: "---"
       - section: "Worksheets"
@@ -56,6 +55,8 @@ website:
           - worksheets/ws-01.qmd
           - worksheets/ws-02.qmd
           - worksheets/ws-03.qmd
+          - href: https://gisma-courses.github.io/gi-modules/post/2021-11-16-getting-startet-with-lidar/
+            text: Basic Remote Sensing Project
           
           # - href: https://github.com/gisma-courses/LV-19-050-189-ABM/blob/main/assets/Challenge1Advanced.nlogo
           #   text: Challenge One Advanced Model
