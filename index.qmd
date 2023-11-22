@@ -1,6 +1,6 @@
 ---
 title: ""
-title-block-banner: ../images/envimet.png
+title-block-banner: images/hinterland-sp.jpg
 title-block-banner-color: black
 
 open-graph:
@@ -12,7 +12,7 @@ twitter-card:
 comments: false
 ---
 
-![](images/gis_title.jpg)
+![](images/hinterland-sp.jpg)
 
 One could claim that the fact living on the surface of the earth and only get to know a small space through direct personal experience is the most important motivation for most of the geographic work. Compensation for this lack of direct experience has been and is being made, especially in scientific geography, with the help of efficient spatio-temporal techniques of abstraction. 
 
