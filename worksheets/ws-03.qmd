@@ -1,5 +1,5 @@
 ---
-title: "Worksheet 2: Qgis Digital Elevation Models & More"
+title: "Worksheet 3: Watersheds Concept and Workflows"
 
 title-block-banner: ../images/splash_L03.png
 title-block-banner-color: black
