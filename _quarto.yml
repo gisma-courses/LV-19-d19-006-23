@@ -34,9 +34,7 @@ website:
             text: Space needs a scope
           - href: https://gisma--courses-github-io.translate.goog/geoinfo-basis-qgis//unit02/unit02-01_reader_gi_raum.html?_x_tr_sl=de&_x_tr_tl=en&_x_tr_hl=de&_x_tr_pto=wapp
             text: Spatial Representation in GI
-          - qgis_session/qgis1.qmd
-          - qgis_session/qgis2.qmd
-          - qgis_session/qgis3.qmd
+
       - text: "---"         
       - section: "R-Spatial Basics"
         contents:
@@ -57,6 +55,7 @@ website:
           - worksheets/ws-00.qmd
           - worksheets/ws-01.qmd
           - worksheets/ws-02.qmd
+          - worksheets/ws-03.qmd
           
           # - href: https://github.com/gisma-courses/LV-19-050-189-ABM/blob/main/assets/Challenge1Advanced.nlogo
           #   text: Challenge One Advanced Model
