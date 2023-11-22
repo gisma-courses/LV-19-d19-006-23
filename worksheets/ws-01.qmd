@@ -1,0 +1,15 @@
+---
+title: "Worksheet 1: Warm up Qgis"
+
+title-block-banner: ../images/remsens_title.jpg
+title-block-banner-color: black
+
+---
+
+![](../images/mandantory.png){width=10%}
+
+
+::: {.callout-tip appearance="simple"}
+
+:::
+

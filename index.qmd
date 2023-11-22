@@ -1,0 +1,16 @@
+---
+title: ""
+title-block-banner: ../images/envimet.png
+title-block-banner-color: black
+
+open-graph:
+  description: "Advanced Introduction TO GIS and Remote Sensing"
+  image: /images/park-4987155_1920.jpg
+twitter-card:
+  description: "Advanced Introduction TO GIS and Remote Sensing"
+  image: /images/park-4987155_1920.jpg
+comments: false
+---
+
+![](images/gis_title_1.jpg)
+
