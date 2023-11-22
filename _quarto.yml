@@ -4,7 +4,7 @@ project:
 website:
   open-graph: true
   page-navigation: true  
-  title: "Advanced Introduction TO GIS and Remote Sensing"
+  title: "Advanced GIS and Remote Sensing"
   site-url: https://gisma-courses.github.io/LV-19-d19-006-23
   repo-url: https://github.com/gisma-courses/LV-19-d19-006-23
   repo-actions: [edit, issue]
@@ -30,9 +30,13 @@ website:
     contents:
       - section: "Qgis Basics"
         contents:
+          - href: https://gisma--courses-github-io.translate.goog/geoinfo-basis-qgis//unit01/unit01-01_reader_geo_raum.html?_x_tr_sl=de&_x_tr_tl=en&_x_tr_hl=de&_x_tr_pto=wapp 
+            text: Space needs a scope
+          - href: https://gisma--courses-github-io.translate.goog/geoinfo-basis-qgis//unit02/unit02-01_reader_gi_raum.html?_x_tr_sl=de&_x_tr_tl=en&_x_tr_hl=de&_x_tr_pto=wapp
+            text: Spatial Representation in GI
           - qgis_session/qgis1.qmd
-          # - mc_session/mcm2.qmd
-          # - mc_session/mcm3.qmd
+          - qgis_session/qgis2.qmd
+          - qgis_session/qgis3.qmd
       - text: "---"         
       - section: "R-Spatial Basics"
         contents:

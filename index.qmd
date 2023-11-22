@@ -12,5 +12,5 @@ twitter-card:
 comments: false
 ---
 
-![](images/gis_title_1.jpg)
+![](images/gis_title.jpg)
 
