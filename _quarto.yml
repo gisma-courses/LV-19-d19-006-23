@@ -19,6 +19,21 @@ website:
      repo: gisma-courses/LV-19-d19-006-23
   navbar:
     logo: /images/logooil.jpg
+    left:
+      - icon: question-square-fill
+        text: FAQ
+        href: base/faq.qmd
+      - icon: file-slides-fill
+        text: Slides
+        href: slides/slidelist.qmd
+      - icon: check2-square
+        text: TestIt
+        href: assessment/slidelist.qmd        
+    right:
+      - icon: chat-left-text-fill
+        text: Ilias
+        href: https://ilias3.uni-marburg.de/ilias.php?ref_id=3415621&cmdClass=ilrepositorygui&cmdNode=yz&baseClass=ilrepositorygui
+
 
 
   sidebar:
