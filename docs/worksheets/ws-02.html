@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Advanced Introduction TO GIS and Remote Sensing - Worksheet 2: Qgis Digital Elevation Models &amp; More</title>
+<title>Advanced GIS and Remote Sensing - Worksheet 2: Qgis Digital Elevation Models &amp; More</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,6 +29,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../worksheets/ws-03.html" rel="next">
 <link href="../worksheets/ws-01.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -82,10 +83,10 @@ background-size: cover;
 
 
 <link rel="stylesheet" href="../css/styles.css">
-<meta property="og:title" content="Advanced Introduction TO GIS and Remote Sensing - Worksheet 2: Qgis Digital Elevation Models &amp; More">
+<meta property="og:title" content="Advanced GIS and Remote Sensing - Worksheet 2: Qgis Digital Elevation Models &amp; More">
 <meta property="og:description" content="">
-<meta property="og:site-name" content="Advanced Introduction TO GIS and Remote Sensing">
-<meta name="twitter:title" content="Advanced Introduction TO GIS and Remote Sensing - Worksheet 2: Qgis Digital Elevation Models &amp; More">
+<meta property="og:site-name" content="Advanced GIS and Remote Sensing">
+<meta name="twitter:title" content="Advanced GIS and Remote Sensing - Worksheet 2: Qgis Digital Elevation Models &amp; More">
 <meta name="twitter:description" content="">
 <meta name="twitter:creator" content="@gisma">
 <meta name="twitter:card" content="summary">
@@ -102,13 +103,42 @@ background-size: cover;
     <img src="../images/logooil.jpg" alt="" class="navbar-logo">
     </a>
     <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">Advanced Introduction TO GIS and Remote Sensing</span>
+    <span class="navbar-title">Advanced GIS and Remote Sensing</span>
     </a>
   </div>
-        <div class="quarto-navbar-tools ms-auto">
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../base/faq.html" rel="" target=""><i class="bi bi-question-square-fill" role="img">
+</i> 
+ <span class="menu-text">FAQ</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../slides/slidelist.html" rel="" target=""><i class="bi bi-file-slides-fill" role="img">
+</i> 
+ <span class="menu-text">Slides</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../assessment/slidelist.html" rel="" target=""><i class="bi bi-check2-square" role="img">
+</i> 
+ <span class="menu-text">TestIt</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="https://ilias3.uni-marburg.de/ilias.php?ref_id=3415621&amp;cmdClass=ilrepositorygui&amp;cmdNode=yz&amp;baseClass=ilrepositorygui" rel="" target=""><i class="bi bi-chat-left-text-fill" role="img">
+</i> 
+ <span class="menu-text">Ilias</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
-          <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
   <nav class="quarto-secondary-nav">
@@ -147,7 +177,7 @@ background-size: cover;
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
- <span class="menu-text">Qgis Basics</span></a>
+ <span class="menu-text">GIS Basics</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -163,12 +193,6 @@ background-size: cover;
   <div class="sidebar-item-container"> 
   <a href="https://gisma--courses-github-io.translate.goog/geoinfo-basis-qgis//unit02/unit02-01_reader_gi_raum.html?_x_tr_sl=de&amp;_x_tr_tl=en&amp;_x_tr_hl=de&amp;_x_tr_pto=wapp" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Spatial Representation in GI</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../qgis_session/qgis1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Introduction to QGIS</span></a>
   </div>
 </li>
       </ul>
@@ -201,18 +225,6 @@ background-size: cover;
  <span class="menu-text">Geocomputation with R</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="https://gisma-courses.github.io/gi-modules/post/2021-11-13-project-oriented-workflow/" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Setup your Working Environment</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="https://gisma--courses-github-io.translate.goog/gi-modules/post/2021-12-03-r-spatial-in-der-nussschale/?_x_tr_sl=auto&amp;_x_tr_tl=de&amp;_x_tr_hl=de&amp;_x_tr_pto=wapp" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Basic Remote Sensing Project</span></a>
-  </div>
-</li>
       </ul>
   </li>
         <li class="px-0"><hr class="sidebar-divider hi "></li>
@@ -231,6 +243,11 @@ background-size: cover;
  <span class="menu-text">Worksheets HowTo</span></a>
   </div>
 </li>
+          <li class="px-0"><hr class="sidebar-divider hi "></li>
+          <li class="sidebar-item">
+ <span class="menu-text">QGIS</span>
+  </li>
+          <li class="px-0"><hr class="sidebar-divider hi "></li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../worksheets/ws-01.html" class="sidebar-item-text sidebar-link">
@@ -241,6 +258,35 @@ background-size: cover;
   <div class="sidebar-item-container"> 
   <a href="../worksheets/ws-02.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Worksheet 2: Qgis Digital Elevation Models &amp; More</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../worksheets/ws-03.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Worksheet 3: Watersheds Concept and Workflows</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../worksheets/ws-05.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Worksheet 5: Reproducible Analysis Workflows</span></a>
+  </div>
+</li>
+          <li class="px-0"><hr class="sidebar-divider hi "></li>
+          <li class="sidebar-item">
+ <span class="menu-text">R-Basics</span>
+  </li>
+          <li class="px-0"><hr class="sidebar-divider hi "></li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="https://gisma-courses.github.io/gi-modules/post/2021-11-13-project-oriented-workflow/" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Worksheet 4: Setup your Working Environment</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="https://gisma-courses.github.io/gi-modules/post/2021-11-16-getting-startet-with-lidar/" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Worksheet 5: Basic Remote Sensing Project</span></a>
   </div>
 </li>
       </ul>
@@ -710,6 +756,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="../worksheets/ws-03.html" class="pagination-link">
+        <span class="nav-page-text">Worksheet 3: Watersheds Concept and Workflows</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->
